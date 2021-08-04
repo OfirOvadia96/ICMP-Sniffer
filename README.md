@@ -20,6 +20,13 @@
 
 <h2>Part II:</h2>
 
-Tool construction (Sniffer).
-The tool will branch ICMP traffic on the network and display IP_SRC, IP_DST, TYPE, CODE on the screen (note that the card's ability to see traffic not ours depends on the type of connection and the type of network card we need to transfer to monitor mode).
-COMPILE Using MAKEFILE I built and then to run you have to use SUDO in the run command line 
+#### Build a listener for ICMP network packages (sniffer) ####
+
+The tool will:
+* sniffing ICMP traffic on the network and 
+* display IP_SRC, IP_DST, TYPE, CODE on the screen 
+
+
+*(Note that the card's ability to see traffic not ours depends on the type of connection and the type of network card we need to transfer to monitor mode)*
+
+To compile Using MAKEFILE I built and then to run you have to use SUDO in the run command line 
