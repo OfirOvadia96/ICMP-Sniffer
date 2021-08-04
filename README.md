@@ -23,7 +23,7 @@
 #### Build a listener for ICMP network packages (sniffer) ####
 
 The tool will:
-* sniffing ICMP traffic on the network and 
+* sniffing ICMP traffic on the network
 * display IP_SRC, IP_DST, TYPE, CODE on the screen 
 
 
